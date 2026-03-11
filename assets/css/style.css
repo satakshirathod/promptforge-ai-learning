@@ -292,11 +292,8 @@ box-shadow:0px 20px 50px rgba(0,0,0,0.8);
 }
 
 .card-img-top{
-
 height:210px;
-
 object-fit:cover;
-
 }
 
 
@@ -938,6 +935,35 @@ font-size:28px;
 
 font-size:14px;
 
+}
+
+}
+.prompt-img,
+.example-img,
+.practice-img{
+width:100%;
+max-width:100%;
+height:auto;
+display:block;
+margin:auto;
+}
+
+@media (max-width:768px){
+
+.hero-img{
+max-width:240px;
+margin-bottom:20px;
+}
+
+.card-img-top{
+height:auto;
+}
+
+.prompt-img,
+.example-img,
+.practice-img{
+width:100%;
+max-width:100%;
 }
 
 }
